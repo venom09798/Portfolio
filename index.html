@@ -9,108 +9,174 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="bg-glow"></div>
 <div class="wrap">
-<nav class="nav-center"><strong class="feature-title">Portfolio</strong><div><a href="#skills">Skills</a><a href="#work">Projects</a><a href="#contact">Contact</a></div></nav>
+<nav class="nav-center">
+  <strong class="feature-title">Portfolio</strong>
+  <div>
+    <a href="#services">Services</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
 
 <div class="hero">
-<div>
-<h1><span class="hello">Hi, I'm</span><span class="name">Muhammad Hassan Khan</span><span class="role">Full Stack Developer</span></h1>
-<p>Web developer with a cybersecurity and SOC analyst background. I build secure reliable web applications shaped by hands on experience detecting and responding to real world attacks.</p>
-<a class="btn" href="#work">See my projects</a><a class="btn alt" href="#contact">Get in touch</a>
-</div>
-<img src="pix.jpg" alt="Muhammad Hassan Khan" class="profile-pic">
+  <div>
+    <h1>
+      <span class="hello">Hi, I'm</span>
+      <span class="name">Muhammad Hassan Khan</span>
+      <span class="role">Full Stack Developer</span>
+    </h1>
+    <p>Web developer with a cybersecurity and SOC analyst background. I build secure, reliable web applications shaped by hands-on experience detecting and responding to real-world attacks.</p>
+    <a class="btn" href="#work">See my projects</a>
+    <a class="btn alt" href="#contact">Get in touch</a>
+  </div>
+  <img src="pix.jpg" alt="Muhammad Hassan Khan" class="profile-pic">
 </div>
 
 <section id="what-i-do">
-<h2>What I Do</h2>
-<div class="two">
-<div><h3>Development</h3><ul><li>Front end: HTML, CSS, JavaScript</li><li>Back end: Python (Flask)</li><li>Databases: MySQL, SQLite</li><li>Secure coding: input validation, authentication, security headers</li></ul></div>
-<div><h3>Security</h3><ul><li>Alert triage and incident response</li><li>SIEM platforms: Splunk, Wazuh, Elastic</li><li>Log analysis, threat hunting, MITRE ATT&amp;CK</li><li>Vulnerability scanning and web application testing</li></ul></div>
-</div>
+  <h2>What I Do</h2>
+  <div class="two">
+    <div>
+      <h3>Development</h3>
+      <ul>
+        <li>Front end: HTML, CSS, JavaScript</li>
+        <li>Back end: Python (Flask)</li>
+        <li>Databases: MySQL, SQLite</li>
+        <li>Secure coding: input validation, authentication, security headers</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Security</h3>
+      <ul>
+        <li>Alert triage and incident response</li>
+        <li>SIEM platforms: Splunk, Wazuh, Elastic</li>
+        <li>Log analysis, threat hunting, MITRE ATT&amp;CK</li>
+        <li>Vulnerability scanning and web application testing</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Services</h2>
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-icon"><i class="fas fa-code"></i></div>
+      <h3>Web Development</h3>
+      <p>Responsive websites and full-stack apps with HTML, CSS, JavaScript and Python Flask.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+      <h3>Custom Web Apps</h3>
+      <p>Business systems like HR ERP, hospital portals and restaurant platforms tailored to your needs.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+      <h3>Cybersecurity</h3>
+      <p>Secure coding, vulnerability checks, and SOC-style monitoring guidance for safer applications.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><i class="fas fa-database"></i></div>
+      <h3>Backend &amp; Databases</h3>
+      <p>Flask APIs, MySQL/SQLite design, authentication and reliable data handling.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><i class="fas fa-user-check"></i></div>
+      <h3>Secure Auth Systems</h3>
+      <p>Login, signup, session handling and security headers for protected admin and user areas.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><i class="fas fa-video"></i></div>
+      <h3>Video Editing</h3>
+      <p>Clean cuts, simple effects and professional edits for personal or project content.</p>
+    </div>
+  </div>
 </section>
 
 <section id="skills">
-<h2>Skills</h2>
-<ul class="skills-list">
-<li>SOC Analyst</li>
-<li>Cyber Security</li>
-<li>Web Development with Python Flask</li>
-<li>Network Security</li>
-<li>Nmap</li>
-<li>Phishing Awareness</li>
-<li>MS Office</li>
-<li>Data Entry</li>
-<li>Video Editing</li>
-</ul>
+  <h2>Skills</h2>
+  <ul class="skills-list">
+    <li>SOC Analyst</li>
+    <li>Cyber Security</li>
+    <li>Web Development with Python Flask</li>
+    <li>Network Security</li>
+    <li>Nmap</li>
+    <li>Phishing Awareness</li>
+    <li>MS Office</li>
+    <li>Data Entry</li>
+    <li>Video Editing</li>
+  </ul>
 </section>
 
 <section id="work">
-<h2>Projects</h2>
-<div class="proj">
-  <div class="proj-item">
-    <div class="monitor">
-      <div class="monitor-bezel">
-        <div class="monitor-screen">
-          <img src="tastehub.jpg" alt="TasteHub Restaurant" loading="lazy">
+  <h2>Projects</h2>
+  <div class="proj">
+    <div class="proj-item">
+      <div class="monitor">
+        <div class="monitor-bezel">
+          <div class="monitor-screen">
+            <img src="tastehub.jpg" alt="TasteHub Restaurant" loading="lazy">
+          </div>
         </div>
+        <div class="monitor-chin"></div>
+        <div class="monitor-stand"></div>
+        <div class="monitor-base"></div>
       </div>
-      <div class="monitor-chin"></div>
-      <div class="monitor-stand"></div>
-      <div class="monitor-base"></div>
+      <a class="proj-link" href="https://tastehubrestaurant.pythonanywhere.com" target="_blank" rel="noopener noreferrer">
+        tastehubrestaurant.pythonanywhere.com <i class="fas fa-search"></i>
+      </a>
     </div>
-    <a class="proj-link" href="https://tastehubrestaurant.pythonanywhere.com" target="_blank" rel="noopener noreferrer">
-      tastehubrestaurant.pythonanywhere.com <i class="fas fa-search"></i>
-    </a>
-  </div>
-  <div class="proj-item">
-    <div class="monitor">
-      <div class="monitor-bezel">
-        <div class="monitor-screen">
-          <img src="medicare.jpg" alt="IR Medicare Hospital" loading="lazy">
+    <div class="proj-item">
+      <div class="monitor">
+        <div class="monitor-bezel">
+          <div class="monitor-screen">
+            <img src="medicare.jpg" alt="IR Medicare Hospital" loading="lazy">
+          </div>
         </div>
+        <div class="monitor-chin"></div>
+        <div class="monitor-stand"></div>
+        <div class="monitor-base"></div>
       </div>
-      <div class="monitor-chin"></div>
-      <div class="monitor-stand"></div>
-      <div class="monitor-base"></div>
+      <a class="proj-link" href="https://irmedicarehospital.pythonanywhere.com" target="_blank" rel="noopener noreferrer">
+        irmedicarehospital.pythonanywhere.com <i class="fas fa-search"></i>
+      </a>
     </div>
-    <a class="proj-link" href="https://irmedicarehospital.pythonanywhere.com" target="_blank" rel="noopener noreferrer">
-      irmedicarehospital.pythonanywhere.com <i class="fas fa-search"></i>
-    </a>
-  </div>
-  <div class="proj-item">
-    <div class="monitor">
-      <div class="monitor-bezel">
-        <div class="monitor-screen">
-          <img src="hrerp.jpg" alt="HR ERP System" loading="lazy">
+    <div class="proj-item">
+      <div class="monitor">
+        <div class="monitor-bezel">
+          <div class="monitor-screen">
+            <img src="hrerp.jpg" alt="HR ERP System" loading="lazy">
+          </div>
         </div>
+        <div class="monitor-chin"></div>
+        <div class="monitor-stand"></div>
+        <div class="monitor-base"></div>
       </div>
-      <div class="monitor-chin"></div>
-      <div class="monitor-stand"></div>
-      <div class="monitor-base"></div>
+      <a class="proj-link" href="https://90svenom.pythonanywhere.com" target="_blank" rel="noopener noreferrer">
+        90svenom.pythonanywhere.com <i class="fas fa-search"></i>
+      </a>
     </div>
-    <a class="proj-link" href="https://90svenom.pythonanywhere.com" target="_blank" rel="noopener noreferrer">
-      90svenom.pythonanywhere.com <i class="fas fa-search"></i>
-    </a>
   </div>
-</div>
 </section>
 
 <section id="contact">
-<h2>Contact</h2>
-<p><a href="mailto:hassankhanjani123456@gmail.com" title="Email me"><i class="fas fa-envelope"></i></a> 
-   <a href="https://www.linkedin.com/in/hassan-khan-bab90a269" title="Contact me on LinkedIn"><i class="fab fa-linkedin"></i></a> 
-   <a href="https://wa.me/923309423386" title="Contact me on WhatsApp"><i class="fab fa-whatsapp"></i></a> 
-   <a href="https://x.com/venom09798" title="Contact me on X"><i class="fab fa-x-twitter"></i></a> 
-   <a href="https://www.facebook.com/share/1KcpzxmZUz/" title="Contact me on Facebook"><i class="fab fa-facebook"></i></a>
-   <a href="https://discordapp.com/users/1158413237201678378" title="Contact me on Discord"><i class="fa-brands fa-discord"></i></a> 
-   <a href="https://www.instagram.com/invites/contact/?utm_content=hkfl624&xtok=1w4rlz38zlgt1" title="Contact me on Instagram"><i class="fa-brands fa-instagram"></i></a> 
-   <a href="https://t.me/venom09798" target="_blank" rel="noopener noreferrer" title="Contact me on Telegram"><i class="fa-brands fa-telegram"></i></a>
-</p>
-
+  <h2>Contact</h2>
+  <p>
+    <a href="mailto:hassankhanjani123456@gmail.com" title="Email me"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/hassan-khan-bab90a269" title="Contact me on LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://wa.me/923309423386" title="Contact me on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://x.com/venom09798" title="Contact me on X"><i class="fab fa-x-twitter"></i></a>
+    <a href="https://www.facebook.com/share/1KcpzxmZUz/" title="Contact me on Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://discordapp.com/users/1158413237201678378" title="Contact me on Discord"><i class="fa-brands fa-discord"></i></a>
+    <a href="https://www.instagram.com/invites/contact/?utm_content=hkfl624&xtok=1w4rlz38zlgt1" title="Contact me on Instagram"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://t.me/venom09798" target="_blank" rel="noopener noreferrer" title="Contact me on Telegram"><i class="fa-brands fa-telegram"></i></a>
+  </p>
 </section>
+
 <footer>© 2026 Muhammad Hassan Khan</footer>
 </div>
-
 <script src="script.js"></script>
 </body>
 </html>
